@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>@yield('title')</title>
-    <link rel="stylesheet" href="/css/app.css">
-    <script src="/js/app.js" defer></script>
+    @vite(['resources/css/app.css','resources/js/app.js'])
 </head>
 <body>
     <header>
